@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC40D5F41D37B2EE00DB373A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC40D5F31D37B2EE00DB373A /* AppDelegate.swift */; };
+		DC40D5F61D37B2EE00DB373A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC40D5F51D37B2EE00DB373A /* ViewController.swift */; };
+		DC40D5F91D37B2EE00DB373A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC40D5F71D37B2EE00DB373A /* Main.storyboard */; };
+		DC40D5FB1D37B2EE00DB373A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC40D5FA1D37B2EE00DB373A /* Assets.xcassets */; };
+		DC40D5FE1D37B2EE00DB373A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC40D5FC1D37B2EE00DB373A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC40D5F01D37B2ED00DB373A /* pokedex-by-jemtech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pokedex-by-jemtech.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC40D5F31D37B2EE00DB373A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC40D5F51D37B2EE00DB373A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC40D5F81D37B2EE00DB373A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC40D5FA1D37B2EE00DB373A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC40D5FD1D37B2EE00DB373A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC40D5FF1D37B2EE00DB373A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC40D5ED1D37B2ED00DB373A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC40D5E71D37B2ED00DB373A = {
+			isa = PBXGroup;
+			children = (
+				DC40D5F21D37B2EE00DB373A /* pokedex-by-jemtech */,
+				DC40D5F11D37B2ED00DB373A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC40D5F11D37B2ED00DB373A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC40D5F01D37B2ED00DB373A /* pokedex-by-jemtech.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC40D5F21D37B2EE00DB373A /* pokedex-by-jemtech */ = {
+			isa = PBXGroup;
+			children = (
+				DC40D5F31D37B2EE00DB373A /* AppDelegate.swift */,
+				DC40D5F51D37B2EE00DB373A /* ViewController.swift */,
+				DC40D5F71D37B2EE00DB373A /* Main.storyboard */,
+				DC40D5FA1D37B2EE00DB373A /* Assets.xcassets */,
+				DC40D5FC1D37B2EE00DB373A /* LaunchScreen.storyboard */,
+				DC40D5FF1D37B2EE00DB373A /* Info.plist */,
+			);
+			path = "pokedex-by-jemtech";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC40D5EF1D37B2ED00DB373A /* pokedex-by-jemtech */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC40D6021D37B2EE00DB373A /* Build configuration list for PBXNativeTarget "pokedex-by-jemtech" */;
+			buildPhases = (
+				DC40D5EC1D37B2ED00DB373A /* Sources */,
+				DC40D5ED1D37B2ED00DB373A /* Frameworks */,
+				DC40D5EE1D37B2ED00DB373A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "pokedex-by-jemtech";
+			productName = "pokedex-by-jemtech";
+			productReference = DC40D5F01D37B2ED00DB373A /* pokedex-by-jemtech.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC40D5E81D37B2ED00DB373A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "jemson sentillas";
+				TargetAttributes = {
+					DC40D5EF1D37B2ED00DB373A = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = DC40D5EB1D37B2ED00DB373A /* Build configuration list for PBXProject "pokedex-by-jemtech" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC40D5E71D37B2ED00DB373A;
+			productRefGroup = DC40D5F11D37B2ED00DB373A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC40D5EF1D37B2ED00DB373A /* pokedex-by-jemtech */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC40D5EE1D37B2ED00DB373A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC40D5FE1D37B2EE00DB373A /* LaunchScreen.storyboard in Resources */,
+				DC40D5FB1D37B2EE00DB373A /* Assets.xcassets in Resources */,
+				DC40D5F91D37B2EE00DB373A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC40D5EC1D37B2ED00DB373A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC40D5F61D37B2EE00DB373A /* ViewController.swift in Sources */,
+				DC40D5F41D37B2EE00DB373A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC40D5F71D37B2EE00DB373A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC40D5F81D37B2EE00DB373A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC40D5FC1D37B2EE00DB373A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC40D5FD1D37B2EE00DB373A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC40D6001D37B2EE00DB373A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC40D6011D37B2EE00DB373A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC40D6031D37B2EE00DB373A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "pokedex-by-jemtech/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jemtech008.pokedex-by-jemtech";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DC40D6041D37B2EE00DB373A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "pokedex-by-jemtech/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jemtech008.pokedex-by-jemtech";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC40D5EB1D37B2ED00DB373A /* Build configuration list for PBXProject "pokedex-by-jemtech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC40D6001D37B2EE00DB373A /* Debug */,
+				DC40D6011D37B2EE00DB373A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC40D6021D37B2EE00DB373A /* Build configuration list for PBXNativeTarget "pokedex-by-jemtech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC40D6031D37B2EE00DB373A /* Debug */,
+				DC40D6041D37B2EE00DB373A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC40D5E81D37B2ED00DB373A /* Project object */;
+}

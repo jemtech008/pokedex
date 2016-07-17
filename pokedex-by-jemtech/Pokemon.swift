@@ -1,4 +1,4 @@
-terminal//
+//
 //  Pokemon.swift
 //  pokedex-by-jemtech
 //
